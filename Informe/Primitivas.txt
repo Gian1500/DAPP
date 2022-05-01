@@ -1,0 +1,82 @@
+pragma--> solidity version *0.8.6; permite establecer la version que se va a utilizar del lenguaje
+
+contract--> La definicion de como establecemos el contrato
+
+taskcontract--> es un arreglo que define un conjunto de tareas para establecer el contrato.
+
+mapping--> conjunto de datos que contiene un par dato-valor (key-value) y solo puede ser recorrido elemento por elemento
+titulo: contrato,
+id:4;
+
+uint id --> establece que el id solo va a poder ser valor entero de 256 bytes no negativo. Por ende uint es un tipo de dato.
+
+string --> es una secuencia de caracteres usado para representar el texto.
+
+struct --> contiene un arreglo de los tipos de datos que se utilizan en las variables. uint id; string title;
+
+function --> palabra reservada que permite crear una funcion.
+function public--> permite que dicha funcion pueda ser accedida desde otros archivos
+
+memory --> esto se utiliza para contener valores temporales. Se borra entre llamadas de funciones (externas)
+
+block.timestamp --> permite traer el valor del tiempo en el que se guardo un dato.
+
+artifacts--> permite acceder a los modulos del programa para traer funciones.
+
+emit--> palabra reservada para emitir un evento de solidity y que pueda ser leida por el usuario desde la DAPP.
+
+_tarea--> el guion bajo dentro de una funcion, establece dicha pertenece a ese scope
+
+module.exports--> es un objeto que el módulo actual devuelve cuando es «requerido» en otro programa o módulo.
+
+it--> Metodo que Permite crear distintas funciones de prueba.
+assert--> permite comparar tipos de datos.
+
+async--> define una función asíncrona, la cual devuelve un objeto
+
+await-->Una función async puede contener una expresión await, la cual pausa la ejecución de la función asíncrona y espera la resolución de la Promise pasada y, a continuación, reanuda la ejecución de la función async y devuelve el valor resuelto.
+
+tipos de datos generales JS
+
+El último estándar ECMAScript define nueve tipos:
+
+Seis tipos de datos primitivos, controlados por el operador typeof
+Undefined: typeof instance === "undefined"
+Boolean: typeof instance === "boolean"
+Number: typeof instance === "number"
+String: typeof instance === "string"
+BigInt: typeof instance === "bigint"
+Symbol: typeof instance === "symbol"
+Null: typeof instance === "object". Tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null;
+Object: typeof instance === "object". Tipo estructural especial que no es de datos pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date y casi todo lo hecho con la palabra clave new;
+Function: una estructura sin datos, aunque también responde al operador typeof: typeof instance === "function". Esta simplemente es una forma abreviada para funciones, aunque cada constructor de funciones se deriva del constructor Object.
+
+
+etiquetas de html
+
+Hay una serie de etiquetas que son las más usadas para crear cualquier documento HTML, a continuación las explicamos:
+
+<body> para el contenido
+<head> para información sobre el documento
+<div> división dentro del contenido
+<a> para enlaces
+<strong> para poner el texto en negrita
+<br> para saltos de línea
+<H1>…<H6> para títulos dentro del contenido
+<img> para añadir imágenes al documento
+<ol> para listas ordenadas, <ul> para listas desordenadas, <li> para elementos dentro de la lista
+<p> para parágrafos
+<span> para estilos de una parte del texto
+
+primitivas de bsconfig y de truffle
+
+server-->define los parametros del servidor
+baseDir-->establece la direccion de ruta de los archivos
+routes-->define la direccion de ruta de node.js
+port-->define el puerto de comunicacion
+
+truffle
+networks-->establece los parametros de conexion
+host-->guarda la direccion local ip
+port-->guarda el puerto de comunicacion
+network_id--> guarda el identificador de la red

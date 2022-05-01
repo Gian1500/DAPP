@@ -1,0 +1,27 @@
+
+
+Contracts / taskcontract.sol / 
+
+F U N C I O N E S
+
+TasksContract = TareaContrato                               
+Task = Tarea
+TaskCreated = TareaCreada
+TaskToggledDone = TareaHecha
+createTask = CrearTarea
+toggleDone = ListarTarea
+
+V A R I A B L E S
+
+id = Id
+title = Titulo
+description = Descripcion
+done = Hecho
+createdAt = FechaContrato
+createTask = CrearTarea
+_title = _titulo
+_description = _descripcion
+tasksCounter = NumTarea
+tasks = ArregloTareas
+_task = _tarea
+
